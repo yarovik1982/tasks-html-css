@@ -81,7 +81,7 @@ body{
 	padding-bottom: 10px;
 }
 .template__flex-box_solution.active {
-	display: block;
+	/*display: block;*/
 	display: flex;
 	justify-content: center;
 }
@@ -90,7 +90,7 @@ body{
 	justify-content: center;
 	display: none;
 }
-.template__flex-box_solution.active{
+.template__flex-box_solution-1.active1{
 	display: flex;
 	justify-content: center;
 }
