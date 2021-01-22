@@ -12,6 +12,11 @@ body{
 }
 
 .template {}
+.template__title {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+}
 .template__main {
 	border: 3px dotted #000;
 	border-radius: 10px;
@@ -59,6 +64,7 @@ body{
 }
 .solution{
 	background-color:green;
+	text-transform: lowercase;
 }
 
 .flex-box-solution {
@@ -91,6 +97,61 @@ body{
 	display: none;
 }
 .template__flex-box_solution-1.active1{
+	display: flex;
+	justify-content: center;
+}
+.template__inline-block {}
+.inline-block__list {
+	background-color: yellow;
+	padding: 10px 25px;
+}
+.inline-block__item {
+	display: inline-block;
+}
+.inline-block__item + .inline-block__item{
+	margin-left: 50px;
+}
+.inline-block__link {
+	font-size: 16px;
+	font-weight: 600;
+	color:blue;
+}
+ul{
+	width: 934px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.template__flex-box_solution-2 {
+	display: flex;
+	justify-content: center;
+	display: none;
+}
+.template__flex-box_solution-2.active-2{
+	display: flex;
+	justify-content: center;
+}
+.template__flex-box {}
+.template__flex-block {}
+.flex-block__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: yellow;
+	padding: 10px 25px;
+}
+.flex-block__item {}
+.flex-block__link {
+	font-size: 16px;
+	font-weight: 600;
+	color:blue;
+}
+.template__flex-box_solution-3 {
+	display: flex;
+	justify-content: center;
+	display: none;
+}
+.template__flex-box_solution-3.active-3{
 	display: flex;
 	justify-content: center;
 }
